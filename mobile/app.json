@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "زوّد",
+    "slug": "zawwid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F8A5F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zawwid.app"
+    },
+    "android": {
+      "package": "com.zawwid.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F8A5F"
+      }
+    },
+    "extra": {
+      "apiUrl": "http://localhost:4000/api"
+    }
+  }
+}
